@@ -6,7 +6,7 @@ const Nav = (porps) => {
 		<div className='nav-container'>
 			<h1 className='title'>Khan_coder</h1>
 			<ul className='nav-elements'>
-				<Link to='/' className='link'>
+				<Link to='/fahadsPortfolio' className='link'>
 					<li>Home</li>
 				</Link>
 				<Link to='/experience' className='link'>

@@ -31,7 +31,7 @@ function App() {
 				</animated.nav>
 				<main>
 					<Switch>
-						<Route path='/' exact>
+						<Route path='/fahadsPortfolio' exact>
 							<Home />
 						</Route>
 						<Route path='/experience'>
