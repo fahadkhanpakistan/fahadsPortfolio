@@ -1,0 +1,25 @@
+/** @format */
+
+.nav-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.title {
+	color: goldenrod;
+}
+.nav-elements {
+	flex-basis: 320px;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	text-decoration: none;
+}
+.nav-elements li {
+	color: #ddd;
+}
+.link {
+	text-decoration: none;
+}
