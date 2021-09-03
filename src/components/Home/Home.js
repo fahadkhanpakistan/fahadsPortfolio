@@ -1,6 +1,7 @@
 /** @format */
 import './Home.css';
 import dp from '../../images/DP.jpg';
+import resume from "../../images/Fahad's Resume.pdf";
 import { useSpring, animated } from 'react-spring';
 const Home = (props) => {
 	const swapRight = useSpring({
@@ -34,7 +35,13 @@ const Home = (props) => {
 				<p>
 					Graduate from <b className='bold'>Computer Science</b> 2021
 				</p>
-				<button className='cv-btn'>Download CV</button>
+				<p>
+					I love to write about <b className='bold'>Web Development</b>.
+				</p>
+				<p> I had published 10+ articles on various online platforms</p>
+				<a href={resume}>
+					<button className='cv-btn'>Download CV</button>
+				</a>
 			</animated.div>
 		</section>
 	);

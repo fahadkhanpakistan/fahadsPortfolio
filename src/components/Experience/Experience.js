@@ -28,7 +28,7 @@ const Experience = (props) => {
 		delay: 120,
 		from: {
 			pacity: 0,
-			transform: 'translateY(150%)',
+			transform: 'translateY(100%)',
 		},
 		to: {
 			opacity: 1,
@@ -64,8 +64,13 @@ const Experience = (props) => {
 						responsibility.
 					</p>
 					<p>
-						By the helo of <b className='bold'>JavaScript</b>, I had understood how to deal with
+						By the help of <b className='bold'>JavaScript</b>, I had understood how to deal with
 						other Technologies which can be embbed.
+					</p>
+					<p>
+						<b className='bold'>Web Develpement</b> made me passionate,
+						<b className='bold'>Nature</b> made me curios and
+						<b className='bold'> Life</b> made me rock hard.
 					</p>
 				</animated.div>
 			</div>

@@ -1,15 +1,15 @@
 /** @format */
 .home-container {
-	margin-top: 7rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	height: calc(100vh - 72px);
 }
 .dp {
-	width: 250px;
+	max-width: 250px;
 	border-radius: 50%;
 	border: 3px solid #ddd;
-	padding: 0.5rem;
+	/* padding: 0.5rem; */
 	box-shadow: 2px 2px 3px #ddd;
 }
 .dp:hover {
@@ -17,7 +17,6 @@
 	box-shadow: 2px 2px 3px;
 }
 .home-info {
-	align-self: flex-start;
 	color: #ddd;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 2px 2px 2px #222;
@@ -45,4 +44,18 @@
 .cv-btn:hover {
 	color: #ddd;
 	border-color: goldenrod;
+}
+@media screen and (max-width: 850px) {
+	.home-container {
+		flex-direction: column;
+	}
+	.home-info {
+		padding: 1rem;
+	}
+	.home-info-title {
+		font-size: 3rem;
+	}
+	.dp {
+		z-index: 0;
+	}
 }

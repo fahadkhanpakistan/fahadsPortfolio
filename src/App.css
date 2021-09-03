@@ -8,6 +8,6 @@
 .app-container {
 	box-sizing: border-box;
 	background-color: #444;
-	height: 100vh;
 	overflow-y: hidden;
+	overflow-x: hidden;
 }

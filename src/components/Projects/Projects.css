@@ -1,0 +1,41 @@
+/** @format */
+
+.projects-container {
+	max-width: 70%;
+	margin: auto;
+	height: calc(100vh - 72px);
+	overflow-x: hidden;
+	margin-top: 2rem;
+}
+.projects-frame-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.page-title {
+	color: #ddd;
+	padding-left: 3.5rem;
+}
+.frame {
+	overflow: hidden;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 2px 2px 2px 2px;
+	margin: 1rem;
+}
+.ref {
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	color: goldenrod;
+	text-align: center;
+	text-shadow: 2px 2px 2px #222;
+}
+.ref:hover {
+	color: #ddd;
+}
+@media screen and (max-width: 550px) {
+	.projects-container {
+		max-width: 100%;
+	}
+}

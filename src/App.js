@@ -17,7 +17,6 @@ function App() {
 		},
 		to: {
 			transform: 'translateY(0px)',
-
 			opacity: 1,
 		},
 	});
